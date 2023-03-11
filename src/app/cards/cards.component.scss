@@ -1,0 +1,22 @@
+.card img{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+.card{
+    margin: 5px;
+    border-radius: 10px;
+    background-image: linear-gradient(360deg, #00000022 1%, #fefcfe  10%);
+}
+.btn{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    border:2px solid black;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    border:2px solid white;
+}

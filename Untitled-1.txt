@@ -1,0 +1,73 @@
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <span id="sitename" >ShopOnLine</span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <input class="searchbox" placeholder="search for product, brand and
+            more"
+            type="search">
+          <button class="searchbtn"><mat-icon>search</mat-icon></button>
+        </li>
+        <span class="example-spacer"></span>
+        <li class="nav-item">
+          Select your address
+  <button class="loc" mat-icon-button class="example-icon" aria-label="Example
+    icon-button
+    with share icon" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <mat-icon aria-hidden="false" aria-label="Example home icon"
+      fontIcon="location_on"></mat-icon>
+  </button>
+        </li>
+        <li class="nav-item">
+          <div>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle" id="btn" href="#"
+                role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+        
+              <ul class="dropdown-menu">
+                <li><h6 class="dropdown-header">Categories</h6></li>
+                <li><a class="dropdown-item" href="#">Consumer Electronics</a></li>
+                <li><a class="dropdown-item" href="#">Fashion, clothings, footwear</a></li>
+                <li><a class="dropdown-item" href="#">Books, movies, music, and games</a></li>
+                <li><a class="dropdown-item" href="#">Health, personal care, and beauty</a></li>
+                <li><a class="dropdown-item" href="#">Food and beverage</a></li>
+                <li><a class="dropdown-item" href="#">Auto and parts</a></li>
+                <li><a class="dropdown-item" href="#">Furniture and decor</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <button mat-icon-button class="example-icon" aria-label="Example icon-button
+    with share icon">
+    <mat-icon aria-hidden="false" aria-label="Example home icon"
+      fontIcon="shopping_cart"></mat-icon>
+  </button>
+        </li>
+
+        <li class="nav-item">
+          <button mat-icon-button class="example-icon" aria-label="Example icon-button
+          with share icon">
+          <mat-icon aria-hidden="false" aria-label="Example home icon"
+            fontIcon="person"></mat-icon>
+        </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<app-slider></app-slider>
+<app-cards></app-cards>
+<app-prodect-category></app-prodect-category>

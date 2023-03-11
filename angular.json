@@ -8,7 +8,9 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+          
         }
+        
       },
       "root": "",
       "sourceRoot": "src",
@@ -30,9 +32,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/@popperjs/core/dist/umd/popper.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -100,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "674adbf9-d6d2-4268-bfee-82695224c3b8"
   }
 }

@@ -1,0 +1,136 @@
+
+.navbar-brand{
+  font-size: 30px;
+  margin-left: 10px;
+  color: #b8c6dbe3;
+  letter-spacing:4px;
+  font-weight: 400;
+  font-family: 'Bebas Neue', cursive;
+}
+.nav{
+  color: #000;
+}
+
+.nav-link{
+  color: #000;
+}
+
+.registernav{
+  border: none;
+  color: blue;
+  text-align: center;
+  background-color: #fff;
+}
+.registernav:hover{
+  border: none;
+  color: blue;
+  text-decoration: underline;
+  text-align: center;
+  background-color: #fff;
+}
+.modal-content{
+  text-align: center;
+}
+.modal-content input{
+  margin: auto;
+  display: block;
+
+}
+
+
+.nav-linkbtn{
+  background: none;
+  border: none;
+  padding-top: 8px;
+}
+
+.form-control{
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 290px;
+}
+
+#searchbtn{
+  color: #000;
+  background-color: #fff;
+}
+#searchbtn:hover{
+  color: #fff;
+  background-color: #000;
+}
+
+// .example-spacer {
+//     flex: 1 1 auto;
+//   }
+//   #sitename{
+//     font-size: 30px;
+//   }
+//   #btn{
+//     font-size: 20px;
+//     font-weight: 500;
+//   }
+//   .nav{
+//     background-color: #dadada;
+//     font-style: bold;
+//     font-weight: 700;
+//   }
+//   .searchbox{
+//     font-size: larger;
+//     border-radius: 10px;
+//     width: 340px;
+//     margin-left: 20px;
+//     padding-left: 10px;
+
+//   }
+//   .searchbtn{
+//     background: none;
+//     border: 0ch;
+//     margin-right: 20px;
+//   }
+//   .searchbtn:hover{
+//     background: none;
+//     color: rgb(246, 255, 0);
+//     border: 0ch;
+//   }
+//   .dropdown a{
+//     background: none;
+//     border: 0ch;
+//     color: #000;
+//     font-size: large;
+//   }
+//   .dropdown-menu li a{
+//     background: none;
+//   }
+//   .dropdown-menu li a:hover{
+//     background: #00000012;
+//   }
+//   h5{
+//     margin-left: 10px;
+//   }
+//   .loc{
+//     margin-top: -30px;
+//   }
+//   .loginbtn{
+//     background: none;
+//     border: #00000000;
+//   }
+//   .log_icon{
+//     margin-right: 5px;
+//   }
+//   .pincode_tlt{
+//     text-align: center;
+//     color: #000000d3;
+//   }
+//   .desc_modal{
+//     text-align: center;
+//   }
+//  .modal-body input{
+//   display: block;
+//   margin-right: auto;
+//   margin-left: auto;
+
+//  }
+//  #pininput{
+//   border-radius: 20px;
+//   text-align: center;
+//  }
