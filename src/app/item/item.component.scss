@@ -1,0 +1,100 @@
+.column {
+    float: left;
+    width: 50%;
+    background: #ffffff;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  .brand{
+    color: #000000c2;
+  }
+
+  .main_img{
+    margin-left: 120px;
+  }
+
+  h5{
+    padding-top: 100px;
+    font-size: 26px;
+  }
+  i{
+    color: orange;
+  }
+  mat-button-toggle-group {
+    margin-top: 10px;
+    border: none;
+  }
+  mat-button-toggle{
+    color: #000000;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  mat-button-toggle:hover{
+    color: #fd072c;
+    width: 100px;
+    margin: 5px;
+    border: none;
+  }
+  .price{
+    margin-top: 20px;
+  }
+  #price_color{
+    margin-top: 40px;
+    color: #fd072c;
+    font-weight: 700
+  }
+  .cart-btn{
+    background: #fd072c;
+    color: #ffff;
+    width: 100px;
+    margin: 5px;
+    border: none;
+    width: 160px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .seller{
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .seller-name{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  #icon{
+    color: #ffffff;
+  }
+  mat-tab-group{
+    background:#ffff;
+  }
+  .review-pic{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+  }
+  .reviewer-name{
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  #review{
+    margin-left: 20px;
+    margin-right: 20px;
+  }

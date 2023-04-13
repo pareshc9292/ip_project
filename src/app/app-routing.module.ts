@@ -1,3 +1,4 @@
+import { ItemComponent } from './item/item.component';
 import { AppComponent } from './app.component';
 import { importProvidersFrom, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -9,6 +10,7 @@ const routes: Routes = [
   
       { path: "login", component:LoginPageComponent,pathMatch: "full" },
       { path: "register", component: RegisterComponent },
+      { path: "item", component: ItemComponent },
   
 
 

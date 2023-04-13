@@ -14,6 +14,13 @@ import { ProdectCategoryComponent } from './prodect-category/prodect-category.co
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { RegisterComponent } from './auth/register/register.component';
 import { LoginPageComponent } from './auth/login-page/login-page.component';
+import { FooterComponent } from './footer/footer.component';
+import { ItemComponent } from './item/item.component';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatTabsModule} from '@angular/material/tabs';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatListModule} from '@angular/material/list';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -22,7 +29,9 @@ import { LoginPageComponent } from './auth/login-page/login-page.component';
     CardsComponent,
     ProdectCategoryComponent,
     RegisterComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    FooterComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +40,12 @@ import { LoginPageComponent } from './auth/login-page/login-page.component';
     MatIconModule,
     MatButtonModule,
     MatMenuModule,
-    NgbModule
+    NgbModule,
+    MatButtonToggleModule,
+    MatTabsModule,
+    BrowserAnimationsModule,
+    MatListModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
