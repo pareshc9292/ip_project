@@ -27,3 +27,17 @@
     font-style: bold;
     font-weight: 600;
 }
+.card img{
+    width: auto;
+    height: 220px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.img-thumbnail{
+    border: none;
+    transition: 0.3s ease-in-out;
+ }
+ .img-thumbnail:hover{
+     transition: 0.3s ease-in-out;
+     transform: scale(1.05);
+  }

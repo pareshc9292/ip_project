@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+          <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Best seller</a>
@@ -29,7 +29,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cart</a>
+          <a class="nav-link" routerLink="/cart">Cart</a>
         </li>
         <li class="nav-item">
           <button class="nav-linkbtn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</button>
@@ -71,8 +71,6 @@
   </div>
 </div>
 
-<app-slider></app-slider>
-<app-cards></app-cards>
-<app-prodect-category></app-prodect-category>
+<router-outlet></router-outlet>
 <!-- <app-item></app-item> -->
 <app-footer></app-footer>

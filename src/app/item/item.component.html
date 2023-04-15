@@ -1,22 +1,22 @@
 <div class="container">
-    <div class="row">
+    <div class="row" >
         <div class="column">
             <picture>
                 <img class="main_img"
-                    src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fflash-2.png&w=384&q=75"
+                    src="{{prodoctList.image}}"
                     />
             </picture>
         </div>
         <div class="column">
-            <h5 class="title">Classic Rolex Watch</h5>
-            <h6 class="brand">Brand:<span class="seller-name">Apple</span></h6>
+            <h5 class="title">{{prodoctList.title}}</h5>
+            <h6 class="brand">Category:<span class="seller-name"> {{prodoctList.category}}</span></h6>
             <h6 class="rate">Rated:
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-half"></i>
-                (50)+
+                ({{prodoctList.rating.count}})+
             </h6>
             <h6 class="options">Colour Options:
                 <br>
@@ -27,13 +27,14 @@
                     <mat-button-toggle class="Black">Black</mat-button-toggle>
                 </mat-button-toggle-group>
             </h6>
-            <h4 class="price">Price: <span id="price_color">₹5600.00</span></h4>
+            <h4 class="price">Price: <span id="price_color">${{prodoctList.price}}</span></h4>
             <a type="submit" class="cart-btn">Add To Cart <i class="bi
                     bi-cart-fill" id="icon"></i></a>
             <a type="submit" class="cart-btn">Add To Wishlist <i class="bi
                     bi-heart-fill" id="icon"></i></a>
 
-            <h4 class="seller">Sold By : <span class="seller-name">Samsung India</span></h4>
+            <h4 class="seller">Sold By : <span class="seller-name">Appario Retail Private Ltd</span></h4>
+            <h4 class="seller-name">Desciption : <span class="seller1">{{prodoctList.description}}</span></h4>
         </div>
         <mat-tab-group>
             <mat-tab label="Description">
